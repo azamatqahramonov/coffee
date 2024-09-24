@@ -1,0 +1,82 @@
+.hero__container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 90%;
+}
+
+.hero {
+  width: 100%;
+  max-width: 1926px;
+  margin: 0 auto;
+  opacity: 1;
+  display: flex;
+  background-image: url("./images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__wrapper {
+  padding: 100px;
+}
+
+.hero__text h1 {
+  font-family: "Righteous", sans-serif;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 93.6px;
+  text-align: left;
+  color: #ffffff;
+}
+.hero__text p {
+  font-family: "Urbanist", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.btn__hero {
+  padding: 50px 0;
+}
+
+.hero__btn {
+  font-family: "Urbanist", sans-serif;
+  display: flex;
+  align-items: center;
+  width: 220px;
+  height: 70px;
+  top: 628px;
+  left: 375px;
+  padding: 24px 40px 24px 40px;
+  gap: 10px;
+  opacity: 0px;
+  background: #c99e71;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.78px;
+  text-align: left;
+  color: #ffffff;
+  border: no;
+}
+
+.hero__btn:hover {
+  font-family: "Urbanist", sans-serif;
+  width: 210px;
+  height: 70px;
+  top: 628px;
+  left: 375px;
+  padding: 24px 40px 24px 40px;
+  gap: 10px;
+  opacity: 0px;
+  color: #c99e71;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.78px;
+  text-align: left;
+  background: #ffffff;
+  transition: background-color 2s ease, transform 0.3s ease;
+}
